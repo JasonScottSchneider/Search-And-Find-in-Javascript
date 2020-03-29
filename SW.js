@@ -12,17 +12,17 @@ function getDistance (event, target) {
 
 //Get a string representing the distance
 var getDistanceHint = function (distance) {
-	if (distance < 10) {
-		return "I am with the force, and the force is with me!";
-	} else if (distance < 20) {
+	if (distance < 15) {
+		return "I am one with the force, and the force is with me!";
+	} else if (distance < 30) {
 		return "The force is strong in this one. The force is really hot!";
-	} else if (distance < 40) {
+	} else if (distance < 60) {
 		return "I sense a disturbance in the force. The force is hot.";
-	} else if (distance < 80) {
+	} else if (distance < 100) {
 		return "Search your feelings. The force is warm.";
-	} else if (distance < 160) {
+	} else if (distance < 190) {
 		return "I have a bad feeling about this. The force is cold.";
-	} else if (distance < 320) {
+	} else if (distance < 350) {
 		return "Do or do not. There is no try. The force is really cold.";
 	} else {
 		return "The force is freezing. I find your lack of faith disturbing!";
